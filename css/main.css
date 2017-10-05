@@ -13,7 +13,7 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   transform: rotate(5deg);
-  transition: all 100ms linear;
+  transition: ease-out 100ms;
   position: relative;
 }
 
@@ -27,9 +27,17 @@ html {
   text-shadow: 1px 1px 3px #000;
   position: absolute;
   bottom: 10%;
-  right: 30%;
+  right: 32%;
 }
 
 .polaroid:hover {
   transform: rotate(0);
+}
+
+figure:first-of-type {
+
+}
+
+figure:last-of-type {
+
 }
