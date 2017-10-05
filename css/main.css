@@ -13,8 +13,8 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   transform: rotate(5deg);
-  transition: ease-out 100ms;
-  position: relative;
+  transition: ease-out 120ms;
+  position: absolute;
   left: 30%;
   top: 100px;
   z-index: 4;
