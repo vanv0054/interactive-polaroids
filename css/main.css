@@ -16,7 +16,7 @@ html {
   transition: ease-out 120ms;
   position: absolute;
   left: 30%;
-  top: 100px;
+  top: 140px;
   z-index: 4;
 }
 
@@ -43,13 +43,13 @@ html {
 figure:first-of-type {
   transform: rotate(-10deg);
   left: 22%;
-  top: 60px;
+  top: 100px;
   z-index: 2;
 }
 
 figure:last-of-type {
   transform: rotate(30deg);
   left: 40%;
-  top: 50px;
+  top: 90px;
   z-index: 3;
 }
