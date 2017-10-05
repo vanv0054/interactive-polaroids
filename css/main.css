@@ -37,18 +37,19 @@ html {
   transform: rotate(0);
   transition: ease-out 200ms;
   z-index: 5;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 1);
 }
 
 figure:first-of-type {
   transform: rotate(-10deg);
   left: 22%;
-  top: 200px;
+  top: 60px;
   z-index: 2;
 }
 
 figure:last-of-type {
   transform: rotate(30deg);
   left: 40%;
-  top: -110px;
+  top: 50px;
   z-index: 3;
 }
