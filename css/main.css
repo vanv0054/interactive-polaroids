@@ -15,6 +15,8 @@ html {
   transform: rotate(5deg);
   transition: ease-out 100ms;
   position: relative;
+  left: 40%;
+  top: 100px;
 }
 
 .polaroid > img {
@@ -35,9 +37,11 @@ html {
 }
 
 figure:first-of-type {
-
+  transform: rotate(-7deg);
+  transition: ease-out 120ms;
 }
 
 figure:last-of-type {
-
+  transform: rotate(30deg);
+  transition: ease-out 130ms;
 }
