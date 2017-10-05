@@ -15,8 +15,9 @@ html {
   transform: rotate(5deg);
   transition: ease-out 100ms;
   position: relative;
-  left: 40%;
+  left: 30%;
   top: 100px;
+  z-index: 4;
 }
 
 .polaroid > img {
@@ -34,14 +35,20 @@ html {
 
 .polaroid:hover {
   transform: rotate(0);
+  transition: ease-out 200ms;
+  z-index: 5;
 }
 
 figure:first-of-type {
-  transform: rotate(-7deg);
-  transition: ease-out 120ms;
+  transform: rotate(-10deg);
+  left: 22%;
+  top: 200px;
+  z-index: 2;
 }
 
 figure:last-of-type {
   transform: rotate(30deg);
-  transition: ease-out 130ms;
+  left: 40%;
+  top: -110px;
+  z-index: 3;
 }
